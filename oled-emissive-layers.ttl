@@ -3,10 +3,15 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix emmo: <https://w3id.org/emmo#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix datacite: <http://purl.org/spar/datacite/> .
 @base <https://w3id.org/emmo/application/advanced-oled-emissive-layers> .
 
 <https://w3id.org/emmo/application/advanced-oled-emissive-layers> rdf:type owl:Ontology ;
@@ -39,7 +44,7 @@
                                                                             owl:versionInfo "0.1.0" ;
                                                                             skos:hiddenLabel "OLED Emissive Layers testing ontology" ;
                                                                             <http://xmlns.com/foaf/0.1/homepage> <https://github.com/emmo-repo/application-advanced-oled-emissive-layers> ;
-                                                                            <http://xmlns.com/foaf/0.1/page> <https://github.com/emmo-repo/application-advanced-oled-emissive-layers .
+                                                                            <http://xmlns.com/foaf/0.1/page> <https://github.com/emmo-repo/application-advanced-oled-emissive-layers> .
 
 #################################################################
 #    Annotation properties
