@@ -12,114 +12,114 @@
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix datacite: <http://purl.org/spar/datacite/> .
-@base <https://w3id.org/emmo/application/advanced-oled-emissive-layers> .
+@base <https://w3id.org/emmo/application/advanced-oled-emissive-layers#> .
 
 <https://w3id.org/emmo/application/advanced-oled-emissive-layers> rdf:type owl:Ontology ;
-                                                                            owl:imports <https://w3id.org/emmo/domain/nanoindentation> ;
-                                                                            <http://purl.org/dc/terms/abstract> "Application ontology for OLED Emissive Layers testing developed within the NanoMECommons project."@en ;
-                                                                            <http://purl.org/dc/terms/alternative> "AdOledEm" ;
-                                                                            <http://purl.org/dc/terms/bibliographicCitation> "Work under review - not available yet" ;
-                                                                            <http://purl.org/dc/terms/contributor> "Goldbeck Consulting Ltd (UK)" ;
-                                                                            <http://purl.org/dc/terms/created> "2024-11-12" ;
-                                                                            <http://purl.org/dc/terms/creator> "Gerhard Goldbeck" ,
-                                                                                                               "Pierluigi Del Nostro" ;
-                                                                            <http://purl.org/dc/terms/description> "OLED Emissive Layers testing ontology"@en ;
-                                                                            <http://purl.org/dc/terms/hasFormat> <https://www.w3.org/TR/turtle/> ;
-                                                                            <http://purl.org/dc/terms/identifier> "https://w3id.org/emmo/application/advanced-oled-emissive-layers" ;
-                                                                            <http://purl.org/dc/terms/issued> "" ;
-                                                                            <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/legalcode" ;
-                                                                            <http://purl.org/dc/terms/modified> "2023-10-23T15:00:00Z" ;
-                                                                            <http://purl.org/dc/terms/publisher> "EMMC ASBL" ;
-                                                                            <http://purl.org/dc/terms/source> "" ;
-                                                                            <http://purl.org/dc/terms/title> "OLED Emissive Layers testing ontology"@en ;
-                                                                            <http://purl.org/ontology/bibo/doi> "" ;
-                                                                            <http://purl.org/vocab/vann/preferredNamespacePrefix> "adoledem"@en ;
-                                                                            <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/application/advanced-oled-emissive-layers" ;
-                                                                            rdfs:comment """Contacts:
+                                                                   owl:imports <https://w3id.org/emmo/domain/nanoindentation/1.0.0-beta1/nanoindentation> ;
+                                                                   dcterms:abstract "Application ontology for OLED Emissive Layers testing developed within the NanoMECommons project."@en ;
+                                                                   dcterms:alternative "AdOledEm" ;
+                                                                   dcterms:bibliographicCitation "Work under review - not available yet" ;
+                                                                   dcterms:contributor "Goldbeck Consulting Ltd (UK)" ;
+                                                                   dcterms:created "2024-11-12" ;
+                                                                   dcterms:creator "Gerhard Goldbeck" ,
+                                                                                   "Pierluigi Del Nostro" ;
+                                                                   dcterms:description "OLED Emissive Layers testing ontology"@en ;
+                                                                   dcterms:hasFormat <https://www.w3.org/TR/turtle/> ;
+                                                                   dcterms:identifier "https://w3id.org/emmo/application/advanced-oled-emissive-layers" ;
+                                                                   dcterms:issued "" ;
+                                                                   dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
+                                                                   dcterms:modified "2023-10-23T15:00:00Z" ;
+                                                                   dcterms:publisher "EMMC ASBL" ;
+                                                                   dcterms:source "" ;
+                                                                   dcterms:title "OLED Emissive Layers testing ontology"@en ;
+                                                                   bibo:doi "" ;
+                                                                   vann:preferredNamespacePrefix "adoledem"@en ;
+                                                                   vann:preferredNamespaceUri "https://w3id.org/emmo/application/advanced-oled-emissive-layers" ;
+                                                                   rdfs:comment """Contacts:
 													                            Gerhard Goldbeck
 													                            Goldbeck Consulting Ltd (UK)
 													                            email: gerhard@goldbeck-consulting.com"""@en ;
-                                                                            owl:backwardCompatibleWith "" ;
-                                                                            owl:priorVersion "" ;
-                                                                            owl:versionInfo "0.1.0" ;
-                                                                            skos:hiddenLabel "OLED Emissive Layers testing ontology" ;
-                                                                            <http://xmlns.com/foaf/0.1/homepage> <https://github.com/emmo-repo/application-advanced-oled-emissive-layers> ;
-                                                                            <http://xmlns.com/foaf/0.1/page> <https://github.com/emmo-repo/application-advanced-oled-emissive-layers> .
+                                                                   owl:backwardCompatibleWith "" ;
+                                                                   owl:priorVersion "" ;
+                                                                   owl:versionInfo "0.1.0" ;
+                                                                   skos:hiddenLabel "OLED Emissive Layers testing ontology" ;
+                                                                   foaf:homepage <https://github.com/emmo-repo/application-advanced-oled-emissive-layers> ;
+                                                                   foaf:page <https://github.com/emmo-repo/application-advanced-oled-emissive-layers> .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
 ###  http://purl.org/dc/terms/abstract
-<http://purl.org/dc/terms/abstract> rdf:type owl:AnnotationProperty .
+dcterms:abstract rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/alternative
-<http://purl.org/dc/terms/alternative> rdf:type owl:AnnotationProperty .
+dcterms:alternative rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/bibliographicCitation
-<http://purl.org/dc/terms/bibliographicCitation> rdf:type owl:AnnotationProperty .
+dcterms:bibliographicCitation rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/contributor
-<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
+dcterms:contributor rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/created
-<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+dcterms:created rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/creator
-<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+dcterms:creator rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/description
-<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+dcterms:description rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/hasFormat
-<http://purl.org/dc/terms/hasFormat> rdf:type owl:AnnotationProperty .
+dcterms:hasFormat rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/identifier
-<http://purl.org/dc/terms/identifier> rdf:type owl:AnnotationProperty .
+dcterms:identifier rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/issued
-<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+dcterms:issued rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/license
-<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+dcterms:license rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/modified
-<http://purl.org/dc/terms/modified> rdf:type owl:AnnotationProperty .
+dcterms:modified rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/publisher
-<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
+dcterms:publisher rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/source
-<http://purl.org/dc/terms/source> rdf:type owl:AnnotationProperty .
+dcterms:source rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/title
-<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+dcterms:title rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/ontology/bibo/doi
-<http://purl.org/ontology/bibo/doi> rdf:type owl:AnnotationProperty .
+bibo:doi rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/vocab/vann/preferredNamespacePrefix
-<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+vann:preferredNamespacePrefix rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/vocab/vann/preferredNamespaceUri
-<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+vann:preferredNamespaceUri rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2004/02/skos/core#altLabel
@@ -135,20 +135,288 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
 
 
 ###  http://xmlns.com/foaf/0.1/homepage
-<http://xmlns.com/foaf/0.1/homepage> rdf:type owl:AnnotationProperty .
+foaf:homepage rdf:type owl:AnnotationProperty .
 
 
 ###  http://xmlns.com/foaf/0.1/name
-<http://xmlns.com/foaf/0.1/name> rdf:type owl:AnnotationProperty .
+foaf:name rdf:type owl:AnnotationProperty .
 
 
 ###  http://xmlns.com/foaf/0.1/page
-<http://xmlns.com/foaf/0.1/page> rdf:type owl:AnnotationProperty .
+foaf:page rdf:type owl:AnnotationProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#OledEmissiveLayersTestingWorkflow
+:OledEmissiveLayersTestingWorkflow rdf:type owl:Class ;
+                                   rdfs:subClassOf chameo:CharacterisationWorkflow ,
+                                                                       [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :AFMCalibrationProcess
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :AFMDataPostProcessing
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :AFMMeasurementProcess
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :AFMRawDataConversion
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :CutByScissors
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :LevellingForInclinations
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :LevellingForOptimalPosition
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :MountingOnHolder
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :NanoindentationDataPostProcessing
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :NanoindentationRawDataConversion
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :OLEDNanoindentationCalibrationProcess
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :OLEDNanoindentationMeasurementProcess
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :SECalibration
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :SEDataProcessingForHarmonic
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :SEDataProcessingForOpticalAndStructure
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty chameo:hasCharacterisationTask ;
+                                                                                                owl:someValuesFrom :SEMeasurementProcess
+                                                                                              ]
+                                                                                            ) ;
+                                                                         rdf:type owl:Class
+                                                                       ] ;
+                                   rdfs:label "OLEDs Characterization, Performance, and Stability Assessment"@en ;
+                                   skos:prefLabel "OledEmissiveLayersTesting" ;
+                                   emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Mechanical and Optical Characterization of individual nanolayers followed by luminance performance stability after mechanical aging." .
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#CutByScissors
+:CutByScissors rdf:type owl:Class ;
+               rdfs:subClassOf chameo:SampleExtractionByCutting ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                 owl:someValuesFrom :MountingOnHolder
+                               ] ;
+               skos:prefLabel "CutByScissors" .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#LTFN
+:LTFN rdf:type owl:Class ;
+      rdfs:subClassOf chameo:Laboratory ;
+      skos:prefLabel "LTFN" .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#LevellingForInclinations
+:LevellingForInclinations rdf:type owl:Class ;
+                          rdfs:subClassOf chameo:SampleInspection ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                            owl:someValuesFrom :LevellingForOptimalPosition
+                                          ] ;
+                          skos:prefLabel "LevellingForInclinations" ;
+                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Check if the sample is flat or has inclinations"@en .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#LevellingForOptimalPosition
+:LevellingForOptimalPosition rdf:type owl:Class ;
+                             rdfs:subClassOf chameo:SampleInspection ,
+                                             [ rdf:type owl:Restriction ;
+                                               owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                               owl:someValuesFrom :AFMCalibrationProcess
+                                             ] ;
+                             skos:prefLabel "LevellingForOptimalPosition" ;
+                             emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Determine the optimal position of the sample for the highest intensity of light"@en .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#MountingOnHolder
+:MountingOnHolder rdf:type owl:Class ;
+                  rdfs:subClassOf chameo:Mounting ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                    owl:someValuesFrom :LevellingForInclinations
+                                  ] ;
+                  skos:prefLabel "MountingOnHolder" .								 
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#AFMCalibrationProcess
+:AFMCalibrationProcess rdf:type owl:Class ;
+                       rdfs:subClassOf chameo:CalibrationProcess ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                         owl:someValuesFrom :AFMMeasurementProcess
+                                       ] ;
+                       skos:prefLabel "AFMCalibrationProcess" ;
+                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Scanning reference samples for calibration of the X-Y-Z motion+"@en .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#AFMDataPostProcessing
+:AFMDataPostProcessing rdf:type owl:Class ;
+                       rdfs:subClassOf chameo:DataPostProcessing ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                         owl:someValuesFrom :SECalibration
+                                       ] ;
+                       skos:prefLabel "AFMDataPostProcessing" ;
+                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Calculation of properties values, Surface Profiles from image analysis"@en .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#AFMMeasurementProcess
+:AFMMeasurementProcess rdf:type owl:Class ;
+                       rdfs:subClassOf chameo:AtomicForceMicroscopy ,
+                                       chameo:CharacterisationMeasurementProcess ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                         owl:someValuesFrom :AFMRawDataConversion
+                                       ] ;
+                       skos:prefLabel "AFMMeasurementProcess" ;
+                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Surface roughness measurements"@en .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#AFMRawDataConversion
+:AFMRawDataConversion rdf:type owl:Class ;
+                      rdfs:subClassOf chameo:DataPreparation ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                        owl:someValuesFrom :AFMDataPostProcessing
+                                      ] ;
+                      skos:prefLabel "AFMRawDataConversion" ;
+                      emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Raw data conversion Image – Image Analysis"@en .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#BulkCSI
+:BulkCSI rdf:type owl:Class ;
+         rdfs:subClassOf chameo:ReferenceSample ;
+         owl:disjointWith :OLEDReferenceSample ;
+         skos:prefLabel "BulkCSI" .
+		 
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#NanoindentationDataPostProcessing
+:NanoindentationDataPostProcessing rdf:type owl:Class ;
+                                   rdfs:subClassOf chameo:DataPostProcessing ;
+                                   skos:prefLabel "NanoindentationDataPostProcessing" ;
+                                   emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Calculation of properties values"@en .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#NanoindentationRawDataConversion
+:NanoindentationRawDataConversion rdf:type owl:Class ;
+                                  rdfs:subClassOf chameo:DataPreparation ,
+                                                  [ rdf:type owl:Restriction ;
+                                                    owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                                    owl:someValuesFrom :NanoindentationDataPostProcessing
+                                                  ] ;
+                                  skos:prefLabel "NanoindentationRawDataConversion"@en ;
+                                  emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Raw data conversion to Load – Displacement data, Analysis of the Loading, Unloading and Hold segments based on available models"@en .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#OLEDNanoindentationCalibrationProcess
+:OLEDNanoindentationCalibrationProcess rdf:type owl:Class ;
+                                      rdfs:subClassOf <https://w3id.org/emmo/domain/nanoindentation#EMMO_b7264717-216e-46c6-9bf1-b17009a358c2> ,
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                                        owl:someValuesFrom :OLEDNanoindentationMeasurementProcess
+                                                      ] ;
+                                      skos:prefLabel "OLEDNanoindentationCalibrationProcess" ;
+                                      emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Calibrating the nanoindenter through a sequence of: 
+    -Microscope to indenter calibration 
+    -Tip area function 
+    -Compliance calibration 
+    -Continuous stiffness measurement""" .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#OLEDNanoindentationMeasurementProcess
+:OLEDNanoindentationMeasurementProcess rdf:type owl:Class ;
+                                      rdfs:subClassOf <https://w3id.org/emmo/domain/nanoindentation#EMMO_b3111cf6-107c-4aa6-8f3c-936348906200> ,
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                                        owl:someValuesFrom :NanoindentationRawDataConversion
+                                                      ] ;
+                                      skos:prefLabel "OLEDNanoindentationMeasurementProcess" ;
+                                      emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Measure mechanical properties (elastic modules, hardness) of the Organic Photovoltaic Nanolayered material."@en .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#OLEDReferenceSample
+:OLEDReferenceSample rdf:type owl:Class ;
+                    rdfs:subClassOf chameo:ReferenceSample ;
+                    skos:prefLabel "OLEDReferenceSample" ;
+                    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Calibration gratings for lateral and vertical calibration (samples with surface steps with specific width and height, respectively)"@en .
+		 
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#SECalibration
+:SECalibration rdf:type owl:Class ;
+               rdfs:subClassOf chameo:CalibrationProcess ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                 owl:someValuesFrom :SEMeasurementProcess
+                               ] ;
+               skos:prefLabel "SECalibrationProcess" .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#SEDataProcessingForHarmonic
+:SEDataProcessingForHarmonic rdf:type owl:Class ;
+                             rdfs:subClassOf chameo:DataPostProcessing ,
+                                             [ rdf:type owl:Restriction ;
+                                               owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                               owl:someValuesFrom :SEDataProcessingForOpticalAndStructure
+                                             ] ;
+                             skos:prefLabel "SEDataProcessingForHarmonic" ;
+                             emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Harmonic analysis of the signal to extract measured Is,Ic"@en .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#SEDataProcessingForOpticalAndStructure
+:SEDataProcessingForOpticalAndStructure rdf:type owl:Class ;
+                                        rdfs:subClassOf chameo:DataPostProcessing ,
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                                          owl:someValuesFrom :OLEDNanoindentationCalibrationProcess
+                                                        ] ;
+                                        skos:prefLabel "SEDataProcessingForOpticalAndStructure" ;
+                                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Τheoretical optical model of the materials and layer structure of the sample"@en .
+
+
+###  https://w3id.org/emmo/application/advanced-oled-emissive-layers#SEMeasurementProcess
+:SEMeasurementProcess rdf:type owl:Class ;
+                      rdfs:subClassOf chameo:CharacterisationMeasurementProcess ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
+                                        owl:someValuesFrom :SEDataProcessingForHarmonic
+                                      ] ;
+                      skos:prefLabel "SEMeasurementProcess" ;
+                      emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Measure layer thickness and optical properties in the spectral range nIR-ViS-UV"@en ;
+                      emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Spectroscopic Ellipsometry in  nIR-ViS-UV"@en .
+
 
 
 ###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
